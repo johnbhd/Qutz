@@ -4,7 +4,7 @@ import Bg from "./Bg"
 
 const Quotes = () =>  {
   return (
-  <div className="flex flex-col md:flex-row items-center gap-4 md:gap-0 relative left-0 md:left-7.5">
+  <div className="flex flex-col items-center gap-10 md:gap-0 relative left-0 md:left-7.5 md:flex-row ">
         <div className="bg-gray-100 shadow-lg px-10 py-5 w-80 rounded-xl ">
             <FontAwesomeIcon icon={faQuoteLeft} className="relative bottom-10 right-1 text-2xl bg-black px-3 py-2 text-white rounded-xl"/>
             <div className="flex flex-col gap-y-3 text-center">
